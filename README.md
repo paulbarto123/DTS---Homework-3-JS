@@ -14,7 +14,7 @@ Table  of Content :
     We make a simple unit testing with a JestJs which we can see the result below.  
 
 ##  Project Preview
-![image](https://user-images.githubusercontent.com/61013771/130353429-940d0de1-7b04-418c-ad5f-ce8a13c8d24a.png)
+![image](https://user-images.githubusercontent.com/61013771/130354374-22abe257-9120-48a3-bcdb-6738eaa5ebb4.png)
 
 
 ##  Jest test
