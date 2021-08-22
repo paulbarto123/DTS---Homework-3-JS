@@ -9,8 +9,17 @@ Table  of Content :
 5. Acknowledgements
 
 # About the Project
-    This Project is a simple project that making simple temperature converter and also we can change the website background with whatever color that we wanted to use inside backgroung color input.
+    This Project is a simple project that making simple temperature converter and also we
+    can change the website background with whatever color that we wanted to use inside backgroung color input.
     We make a simple unit testing with a JestJs which we can see the result below.  
+
+##  Project Preview
+![image](https://user-images.githubusercontent.com/61013771/130353429-940d0de1-7b04-418c-ad5f-ce8a13c8d24a.png)
+
+
+##  Jest test
+![image](https://user-images.githubusercontent.com/61013771/130353390-8104b52a-f5b6-4857-aae6-780f58268d83.png)
+
 
 # Getting started
 *  Add Node Packages
@@ -39,8 +48,11 @@ Then watch sass with this command
 
 # Usage
 ## Converting Temperature
+![image](https://user-images.githubusercontent.com/61013771/130353448-26564de4-8773-42ae-b3ec-780d56bbcabb.png)
+
 
 ## Changing Background
+![image](https://user-images.githubusercontent.com/61013771/130353490-62421000-f258-4243-986d-d1f82402274e.png)
 
 
 
