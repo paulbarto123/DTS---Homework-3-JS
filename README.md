@@ -10,7 +10,7 @@ Table  of Content :
 
 # About the Project
     This Project is a simple project that making simple temperature converter and also we
-    can change the website background with whatever color that we wanted to use inside backgroung color input.
+    can change the website background with whatever color that we wanted to use inside background color input.
     We make a simple unit testing with a JestJs which we can see the result below.  
 
 ##  Project Preview
@@ -24,7 +24,7 @@ Table  of Content :
 # Getting started
 *  Add Node Packages
 
-        npm iit
+        npm init
 
 * Unit Testing
 
