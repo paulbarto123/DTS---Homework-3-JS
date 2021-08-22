@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <title>Temperature App</title>
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon.ico">
+</head>
+<body>
+    <section class="header">
+        <h1>Temperature Converter</h1>
+        <p class="date"></p>
+        <p  class="time"></p>
+    </section>
+    
+    <section class="converter">
+            <h1>Select Unit</h1>
+            <div class="converter__selector__unit">
+                <select name="degree__from" class="degree__from" onchange="Select()" >
+                    <option value="cel">Celcius</option>
+                    <option value="far">Fahrenheit</option>
+                    <option value="rea">Reamure</option>
+                </select>
+                <p>To : </p> 
+                <select name="degree__to" class="degree__to" onchange="Select()">
+                    <option value="cel">Celcius</option>
+                    <option value="far">Fahrenheit</option>
+                    <option value="rea">Reamure</option>
+                </select>
+            </div>
+            <h1>Enter Temperature number</h1>
+            <input class="convert__number" type="text" onkeyup="Conv()" onkeypress="Validate(event)" placeholder="temperature number"/>
+            <h2>Converting Result:</h2>
+            <p class="converter__result"></p>
+    </section>
+
+    <section class="background">
+        <label for="background__label">Background Color :</label>
+        <input class="background__input" type="text" placeholder="background color"/>
+        <button type="submit" onclick="Change()" >Change</button>
+    </section>
+
+    <script src="../src/scripts/Convert.js"></script>
+    <script src="../src/scripts/index.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+    ></script>
+</body>
+</html>
