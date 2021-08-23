@@ -28,9 +28,9 @@ const Validate = (evt) => {
     }
 }
 
-const Select = () => {
-    $(".converter__result").val() = "";
-    $(".converter__result").val() = "";
+function Select() {
+    $(".convert__number").val("");
+    $(".converter__result").html("");
 }
 
 const Change= () => {
@@ -44,4 +44,5 @@ const Conv = () => {
     parseInt($(".convert__number").val())
     );
     $(".converter__result").html(res);
+    document.querySelector(".fromNumber").nodeValue;
 }
