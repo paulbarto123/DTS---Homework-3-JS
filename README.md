@@ -13,7 +13,10 @@ Table  of Content :
     can change the website background with whatever color that we wanted to use inside background color input.
     We make a simple unit testing with a JestJs which we can see the result below.  
     We can try simulation of this project by going to this link:
-    https://paulbarto123.github.io/DTS---Homework-3-JS/pages/index.html
+
+###  Project Simulation
+
+  https://paulbarto123.github.io/DTS---Homework-3-JS/pages/index.html
 
 ##  Project Preview
 ![image](https://user-images.githubusercontent.com/61013771/130354374-22abe257-9120-48a3-bcdb-6738eaa5ebb4.png)
